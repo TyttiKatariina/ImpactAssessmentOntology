@@ -55,123 +55,123 @@ dpia:DPAGuidelines a dpia:LegalRequirement ;
 
 # Jurisdictions (EU/EEA Countries)
 dpia:Austria a dpia:Jurisdiction ;
-    skos:prefLabel "Austria"@en ;
+    skos:prefLabel "AT"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Belgium a dpia:Jurisdiction ;
-    skos:prefLabel "Belgium"@en ;
+    skos:prefLabel "BE"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Bulgaria a dpia:Jurisdiction ;
-    skos:prefLabel "Bulgaria"@en ;
+    skos:prefLabel "BG"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Croatia a dpia:Jurisdiction ;
-    skos:prefLabel "Croatia"@en ;
+    skos:prefLabel "HR"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Cyprus a dpia:Jurisdiction ;
-    skos:prefLabel "Cyprus"@en ;
+    skos:prefLabel "CY"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
-dpia:CzechRepublic, a dpia:Jurisdiction ;
-    skos:prefLabel "CzechRepublic,"@en ;
+dpia:CzechRepublic a dpia:Jurisdiction ;
+    skos:prefLabel "CZ"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Denmark a dpia:Jurisdiction ;
-    skos:prefLabel "Denmark"@en ;
+    skos:prefLabel "DK"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Estonia a dpia:Jurisdiction ;
-    skos:prefLabel "Estonia"@en ;
+    skos:prefLabel "EE"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Finland a dpia:Jurisdiction ;
-    skos:prefLabel "Finland"@en ;
+    skos:prefLabel "FI"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:France a dpia:Jurisdiction ;
-    skos:prefLabel "France"@en ;
+    skos:prefLabel "FR"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Germany a dpia:Jurisdiction ;
-    skos:prefLabel "Germany"@en ;
+    skos:prefLabel "DE"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Greece a dpia:Jurisdiction ;
-    skos:prefLabel "Greece"@en ;
+    skos:prefLabel "GR"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Hungary a dpia:Jurisdiction ;
-    skos:prefLabel "Hungary"@en ;
+    skos:prefLabel "HU"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Ireland a dpia:Jurisdiction ;
-    skos:prefLabel "Ireland"@en ;
+    skos:prefLabel "IE"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Italy a dpia:Jurisdiction ;
-    skos:prefLabel "Italy"@en ;
+    skos:prefLabel "IT"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Latvia a dpia:Jurisdiction ;
-    skos:prefLabel "Latvia"@en ;
+    skos:prefLabel "LV"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Lithuania a dpia:Jurisdiction ;
-    skos:prefLabel "Lithuania"@en ;
+    skos:prefLabel "LT"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Luxembourg a dpia:Jurisdiction ;
-    skos:prefLabel "Luxembourg"@en ;
+    skos:prefLabel "LU"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Malta a dpia:Jurisdiction ;
-    skos:prefLabel "Malta"@en ;
+    skos:prefLabel "MT"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Netherlands a dpia:Jurisdiction ;
-    skos:prefLabel "Netherlands"@en ;
+    skos:prefLabel "NL"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Poland a dpia:Jurisdiction ;
-    skos:prefLabel "Poland"@en ;
+    skos:prefLabel "PL"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Portugal a dpia:Jurisdiction ;
-    skos:prefLabel "Portugal"@en ;
+    skos:prefLabel "PT"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Romania a dpia:Jurisdiction ;
-    skos:prefLabel "Romania"@en ;
+    skos:prefLabel "RO"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Slovakia a dpia:Jurisdiction ;
-    skos:prefLabel "Slovakia"@en ;
+    skos:prefLabel "SK"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Slovenia a dpia:Jurisdiction ;
-    skos:prefLabel "Slovenia"@en ;
-    dct:isPartOf dpia:EuropeanUnion . 
+    skos:prefLabel "SI"@en ;
+    dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Spain a dpia:Jurisdiction ;
-    skos:prefLabel "Spain"@en ;
+    skos:prefLabel "ES"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Sweden a dpia:Jurisdiction ;
-    skos:prefLabel "Sweden"@en ;
+    skos:prefLabel "SE"@en ;
     dct:isPartOf dpia:EuropeanUnion .
 
 dpia:Iceland a dpia:Jurisdiction ;
-    skos:prefLabel "Iceland"@en ;
+    skos:prefLabel "IS"@en ;
     dct:isPartOf dpia:EuropeanEconomicArea .
 
 dpia:Liechtenstein a dpia:Jurisdiction ;
-    skos:prefLabel "Liechtenstein"@en ;
+    skos:prefLabel "LI"@en ;
     dct:isPartOf dpia:EuropeanEconomicArea .
 
 dpia:Norway a dpia:Jurisdiction ;
-    skos:prefLabel "Norway"@en ;
+    skos:prefLabel "NO"@en ;
     dct:isPartOf dpia:EuropeanEconomicArea .
 
 # GDPR High Risk Activities
