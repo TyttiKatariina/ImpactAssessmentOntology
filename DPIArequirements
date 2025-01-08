@@ -9,7 +9,7 @@
 dpia:DPIAOntology;
     dct:title "Data Protection Impact Assessment Requirements Ontology"@en ;
     dct:description "Ontology for representing high-risk processing activities requiring DPIAs across EU/EEA countries"@en ;
-    dct:created "2025-01-08"^^xsd:date ;
+    dct:created "2025-01-08"  xsd:date ;
 
 # Main Classes
 dpia:Jurisdiction a rdfs:Class ; 
@@ -22,22 +22,22 @@ dpia:HighRiskActivity a rdfs:Class ;
 
 dpia:LegalRequirement a rdfs:Class ;
     rdfs:label "Legal Requirement"@en ;
-    rdfs:comment "A legal basis requiring DPIA for high-risk processing"@en .
+    rdfs:comment "A legal basis requiring DPIA for high-risk processing activities"@en .
 
 # Properties
 dpia:requiresDPIA a rdf:Property ;
     rdfs:label "Requires DPIA"@en ;
-    rdfs:domain dpia:HighRiskActivity ;
+    rdfs:domain dpia:HighRiskProcessingActivity ;
     rdfs:range xsd:boolean .
 
 dpia:hasJurisdiction a rdf:Property ;
     rdfs:label "Has Jurisdiction"@en ;
-    rdfs:domain dpia:HighRiskActivity ;
+    rdfs:domain dpia:HighRiskProcessingActivity ;
     rdfs:range dpia:Jurisdiction .
 
 dpia:hasLegalBasis a rdf:Property ;
     rdfs:label "Has Legal Basis"@en ;
-    rdfs:domain dpia:HighRiskActivity ;
+    rdfs:domain dpia:HighRiskProcessingActivity ;
     rdfs:range dpia:LegalRequirement .
 
 # Legal Requirements Instances
