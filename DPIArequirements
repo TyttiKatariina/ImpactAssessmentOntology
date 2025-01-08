@@ -24,6 +24,10 @@ dpia:LegalRequirement a rdfs:Class ;
     rdfs:label "Legal Requirement"@en ;
     rdfs:comment "A legal basis requiring DPIA for high-risk processing activities"@en .
 
+dpia:LegalReference a rdfs:Class ;
+    rdfs:label "Legal Reference"@en ;
+    rdfs:comment "A specific legal article or section reference"@en .
+
 # Properties
 dpia:requiresDPIA a rdf:Property ;
     rdfs:label "Requires DPIA"@en ;
@@ -39,6 +43,26 @@ dpia:hasLegalBasis a rdf:Property ;
     rdfs:label "Has Legal Basis"@en ;
     rdfs:domain dpia:HighRiskProcessingActivity ;
     rdfs:range dpia:LegalRequirement .
+
+dpia:hasLegalReference a rdf:Property ;
+    rdfs:label "Has Legal Reference"@en ;
+    rdfs:domain dpia:HighRiskActivity ;
+    rdfs:range dpia:LegalReference .
+
+dpia:articleNumber a rdf:Property ;
+    rdfs:label "Article Number"@en ;
+    rdfs:domain dpia:LegalReference ;
+    rdfs:range xsd:string .
+
+dpia:paragraphNumber a rdf:Property ;
+    rdfs:label "Paragraph Number"@en ;
+    rdfs:domain dpia:LegalReference ;
+    rdfs:range xsd:string .
+
+dpia:RecitalNumber a rdf:Property ;
+    rdfs:label "Recital Number"@en ;
+    rdfs:domain dpia:LegalReference ;
+    rdfs:range xsd:string .
 
 # Legal Requirements Instances
 dpia:GDPR a dpia:LegalRequirement ;
@@ -175,17 +199,18 @@ dpia:Norway a dpia:Jurisdiction ;
     dct:isPartOf dpia:EuropeanEconomicArea .
 
 # GDPR High Risk Activities
-dpia:SystematicProfiling a dpia:HighRiskActivity ;
-    skos:prefLabel "Systematic and extensive profiling"@en ;
+dpia:LargeScalePurposes a dpia:HighRiskActivity ;
+    skos:prefLabel "Large scale processing purposes (Recital 91)"@en ;
     dpia:requiresDPIA "true"^^xsd:boolean ;
-    dpia:hasLegalBasis dpia:GDPR ;
-    skos:definition "Systematic and extensive evaluation of personal aspects based on automated processing, including profiling"@en .
+    dpia:hasLegalBasis dpi:GDPR ;
+    dpia:RecitalNumber "91" ;
+    skos:definition "Processing for Large scale purposes"@en .
 
 dpia:LargeScaleSpecialCategories a dpia:HighRiskActivity ;
     skos:prefLabel "Large scale processing of special categories of data"@en ;
     dpia:requiresDPIA "true"^^xsd:boolean ;
     dpia:hasLegalBasis dpia:GDPR ;
-    skos:definition "Large scale processing of special categories of data or data relating to criminal convictions"@en .
+    skos:definition "Processing for Large scale purposes"@en .
 
 # EDPB High Risk Activities
 dpia:InnovativeTechnology a dpia:HighRiskActivity ;
@@ -200,8 +225,8 @@ dpia:SystematicMonitoring a dpia:HighRiskActivity ;
     dpia:hasLegalBasis dpia:EDPBGuidelines ;
     skos:definition "Systematic monitoring of publicly accessible areas on a large scale"@en .
 
-# Country-Specific High Risk Activities (Example for Austria)
-dpia:AT_BiometricProcessing a dpia:HighRiskActivity ;
+# Country-Specific High Risk Activities
+dpia:BiometricProcessing a dpia:HighRiskActivity ;
     skos:prefLabel "Biometric data processing"@en ;
     dpia:requiresDPIA "true"^^xsd:boolean ;
     dpia:hasJurisdiction dpia:Austria ;
