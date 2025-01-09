@@ -210,7 +210,34 @@ dpia:LargeScaleSpecialCategories a dpia:HighRiskActivity ;
     skos:prefLabel "Large scale processing of special categories of data"@en ;
     dpia:requiresDPIA "true"^^xsd:boolean ;
     dpia:hasLegalBasis dpia:GDPR ;
-    skos:definition "Processing for Large scale purposes"@en .
+    dpia:ArticleNumber "35" ;
+    dpia:ParagraphNumber "3b" ;
+    skos:definition "Large Scale Processing of Special Category of personal data"@en .
+
+dpia:SpecialCategoriesDecisionMaking a dpia:HighRiskActivity ;
+    skos:prefLabel "Processing of Special Category of personal data for decision making"@en ;
+    dpia:requiresDPIA "true"^^xsd:boolean ;
+    dpia:hasLegalBasis dpia:GDPR ;
+    dpia:ArticleNumber "35" ;
+    dpia:ParagraphNumber "3b" ;
+    skos:definition "Processing of Special Category of personal data for decision making"@en .
+
+dpia:ProfilingVulnerablePersons a dpia:HighRiskActivity ;
+    skos:prefLabel "Profiling of vulnerable persons data "@en ;
+    dpia:requiresDPIA "true"^^xsd:boolean ;
+    dpia:hasLegalBasis dpia:GDPR ;
+    dpia:ArticleNumber "35" ;
+    dpia:ParagraphNumber "3b" ;
+    skos:definition "Profiling of vulnerable persons data"@en .
+
+dpia:ProcessingVulnerablePersons a dpia:HighRiskActivity ;
+    skos:prefLabel "Processing of vulnerable persons data "@en ;
+    dpia:requiresDPIA "true"^^xsd:boolean ;
+    dpia:hasLegalBasis dpia:GDPR ;
+    dpia:ArticleNumber "35" ;
+    dpia:ParagraphNumber "3b" ;
+    skos:definition "Processing of vulnerable persons data"@en .
+
 
 # EDPB High Risk Activities
 dpia:InnovativeTechnology a dpia:HighRiskActivity ;
